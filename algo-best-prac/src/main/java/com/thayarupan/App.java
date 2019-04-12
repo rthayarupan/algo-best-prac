@@ -1,7 +1,5 @@
 package com.thayarupan;
 
-import com.thayarupan.algo.BinarySearchAlgo;
-
 /**
  * Hello world!
  *
