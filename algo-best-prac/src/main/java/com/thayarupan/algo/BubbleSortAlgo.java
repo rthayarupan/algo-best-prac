@@ -9,7 +9,7 @@ public class BubbleSortAlgo {
 	 * Space complexity: O(1)
 	 * 
 	 */
-	public static int[] bubbleLoop(int[] array) {
+	public static int[] bubbleLoop(final int[] array) {
 		for (int i = 0; i < array.length; i++) {
 			boolean swap = false; // Does it have swap on first iteration, if no, the array is sorted
 			for (int j = 0; j < array.length - i - 1; j++) {
@@ -33,7 +33,7 @@ public class BubbleSortAlgo {
 	 * 
 	 * 
 	 */
-	public static void bubbleRecursive(int[] array, int n) {
+	public static void bubbleRecursive(final int[] array, final int n) {
 		if (n == 1) {
 			return;
 		}
