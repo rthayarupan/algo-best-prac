@@ -18,7 +18,6 @@ public class PlanFactory {
 		default:
 			break;
 		}
-
 		return plan;
 	}
 }
